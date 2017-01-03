@@ -1,0 +1,11 @@
+version: '2'
+services:
+  db:
+    container_name: db
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=cms
+      - POSTGRES_USER=cms
+      - POSTGRES_DB=cms
+    ports:
+      - "5432:5432"

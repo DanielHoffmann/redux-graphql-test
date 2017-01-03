@@ -1,0 +1,53 @@
+{
+  "name": "players-specials-cms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start-server": "nodemon ./server/server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "migrations": "sequelize db:migrate"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "flow-bin": "^0.37.4",
+    "nodemon": "^1.11.0",
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "aphrodite": "^1.1.0",
+    "bcryptjs": "^2.4.0",
+    "body-parser": "^1.15.2",
+    "cli-color": "^1.1.0",
+    "config": "^1.24.0",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "express-session": "^1.14.2",
+    "graphql": "^0.8.2",
+    "material-ui": "^0.16.6",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^6.1.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.1.0",
+    "sequelize": "^3.28.0",
+    "sequelize-cli": "^2.5.1",
+    "tracer": "^0.8.7"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:3001/"
+}

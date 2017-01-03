@@ -1,0 +1,10 @@
+{
+   "db": {
+      "host": "192.168.99.100",
+      "name": "cms",
+      "user": "cms",
+      "pass": "cms"
+   },
+   "sessionSecret": "someSecretForSessions",
+   "adminPassword": "123123"
+}
